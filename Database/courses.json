@@ -1,0 +1,23 @@
+[
+  {
+    "_id": "RS101",
+    "name": "Rocket Propulsion",
+    "number": "RS4550",
+    "startDate": "Spring semester 2023",
+    "endDate": "2023-05-15"
+  },
+  {
+    "_id": "RS102",
+    "name": "Aerodynamics",
+    "number": "RS4560",
+    "startDate": "Full summer semester 2023",
+    "endDate": "2023-05-15"
+  },
+  {
+    "_id": "RS103",
+    "name": "Spacecraft Design",
+    "number": "RS4570",
+    "startDate": "Full summer semester 2023",
+    "endDate": "2023-05-15"
+  }
+]

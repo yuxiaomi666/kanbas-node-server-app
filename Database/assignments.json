@@ -1,0 +1,11 @@
+[
+    { "_id": "A101", "title": "Propulsion Assignment", "course": "RS101", "discription": "This is a propulsion assignment", "dueDate": "2020-12-31", "avaiableFrom": "2020-12-01",  "availableUntil":  "2023-12-31"},
+    { "_id": "A102", "title": "Combustion Analysis", "course": "RS101", "discription": "This is a combustion analysis", "dueDate": "2020-12-31", "avaiableFrom": "2020-12-01",  "availableUntil":  "2023-12-31" },
+    { "_id": "A103", "title": "Nozzle Design Project", "course": "RS101", "discription": "This is a nozzle design project", "dueDate": "2020-12-31", "avaiableFrom": "2020-12-01",  "availableUntil":  "2023-12-31" },
+    { "_id": "A201", "title": "Aerodynamics Quiz", "course": "RS102", "discription": "This is a aerodynamics quiz", "dueDate": "2020-12-31", "avaiableFrom": "2020-12-01",  "availableUntil":  "2023-12-31" },
+    { "_id": "A202", "title": "Flow Analysis", "course": "RS102", "discription" : "This is a Flow quiz", "dueDate": "2020-12-31", "avaiableFrom": "2020-12-01",  "availableUntil":  "2023-12-31" },
+    { "_id": "A203", "title": "Heating Analysis", "course": "RS102", "discription" : "This is a Heating quiz", "dueDate": "2020-12-31", "avaiableFrom": "2020-12-01",  "availableUntil":  "2023-12-31" },
+    { "_id": "A301", "title": "Structural Design Task", "course": "RS103",  "discription" : "This is a Structural quiz", "dueDate": "2020-12-31", "avaiableFrom": "2020-12-01",  "availableUntil":  "2023-12-31" },
+    { "_id": "A302", "title": "Orbital Calculations", "course": "RS103", "discription" : "This is a aerodynamOrbital Calculationsics quiz", "dueDate": "2020-12-31", "avaiableFrom": "2020-12-01",  "availableUntil":  "2023-12-31" },
+    { "_id": "A303", "title": "Systems Engineering Exam", "course": "RS103",  "discription" : "This is a Systems Engineering quiz", "dueDate": "2020-12-31", "avaiableFrom": "2020-12-01",  "availableUntil":  "2023-12-31" }
+  ]
