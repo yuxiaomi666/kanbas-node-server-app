@@ -1,4 +1,5 @@
 // const express = require("express");
+import "dotenv/config";
 import session from "express-session";
 
 import express from "express";
@@ -14,7 +15,8 @@ import cors from "cors";
 import AssignmentRoutes from "./assignment/routes.js";
 import "dotenv/config";
 
-const conn = await mongoose.connect("mongodb://localhost:27017/kanbas");
+const CONNECTION_STRING = process.env.DB_CONNECTION_STRING || 'mongodb://127.0.0.1:27017/kanbas';
+const conn = await mongoose.connect(CONNECTION_STRING);
 console.log(`MongoDB Connected: ${conn.connection.host}`);
 
 const app = express();
@@ -30,6 +32,14 @@ const sessionOptions = {
     resave: false,
     saveUninitialized: false,
 };
+if (process.env.NODE_ENV !== "development") {
+    sessionOptions.proxy = true;
+    sessionOptions.cookie = {
+        sameSite: "none",
+        secure: true,
+    };
+}
+
 app.use(session(sessionOptions));
 
 app.use(express.json());
